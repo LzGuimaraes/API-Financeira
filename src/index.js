@@ -150,21 +150,6 @@ app.listen(3323, () => {
     console.log(`Server is running on http://localhost:${3323}`);
   });
 
-/**
- * GET - Buscar Informações dentro do servidor
- * POST - Inserir uma informação no servidor
- * PUT - Alterar uma informação no servidor
- * Patch - Alterar uma informação especifica
- * DELETE - Deletar uma informação no servidor
- * 
- */
-
-/* Tipos de Parãmetros 
-
-* Route Params=> Identificar um recurso editar/deletar/buscar
-* Query Params => Paginação / Filtro
-* Body Params => Os objetos inserção/alteração
-*/
 
 
 
